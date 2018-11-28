@@ -1,0 +1,13 @@
+{
+  "name": "gollum",
+  "version": "1.0.0",
+  "main": "gollumBot.js",
+  "scripts": { 
+     "start": "node gollumBot.js"
+    
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
+
