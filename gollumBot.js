@@ -20,7 +20,7 @@ client.on ("message", (message) => {
     }
 
     if (message.content.startsWith ("klonkku")) {
-        message.channel.send  ({files: ["./kuvat/klonkkutenkasja.png"]})
+        message.channel.send  ({files: ["klonkkutenkasja.png"]})
     }
 
 });
