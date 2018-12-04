@@ -21,8 +21,12 @@ client.on ("message", (message) => {
 
     if (message.content.startsWith ("klonkku")) {
         message.channel.send  ({files: ["klonkkutenkasja.png"]})
+    }  
+    if (message.content.startsWith ("damage")) {
+        message.channel.send  ({files: ["dmgctrl.png"]})
     }
 
 });
 
 client.login (process.env.BOT_TOKEN);
+
